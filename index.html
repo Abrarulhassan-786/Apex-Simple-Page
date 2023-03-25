@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,500;1,400;1,500&family=Assistant:wght@200;300;400;600&display=swap"
+        rel="stylesheet">
+    <title>Apex Online IT</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logos.png" alt=""></a>
+            <div class="nav-links">
+                <i class="fa fa-times-circle"></i>
+                <ul class="navlinks">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <img src="images/menu-btn.png" alt="" class="menubtn">
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Pakistan Best Institute</h1>
+        <p>Making website is now one of easiest thing in the world, You just need to learn HTML, CSS, PYTHON, C#. <br> You are good to go here.</p>
+        <a href="" class="btn-Super">Visit Us to know More</a>
+    </div>
+    </section>
+    <script>
+        const menu_Btn = document.querySelector('.menubtn')
+        const nav_links = document.querySelector('.navlinks')
+        menu_Btn.addEventListener('click', () => {
+
+            nav_links.classList.toggle('mobile_meneu')
+        })
+    </script>
+</body>
+
+</html>
